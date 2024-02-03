@@ -1,0 +1,81 @@
+{
+  "workbench.colorTheme": "Min Dark",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.4,
+  "editor.lineHeight": 1.4,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "newUntitledFile",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.inlineSuggest.enabled": true,
+  "files.associations": {
+    "*.css": "css"
+  },
+  "editor.formatOnSaveMode": "modifications",
+  "prettier.bracketSameLine": true,
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "workbench.activityBar.location": "hidden",
+  "symbols.hidesExplorerArrows": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false,
+  },
+  "apc.header": {
+    "height": 32
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Segoe UI",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 8px",
+    ".pane-body": "padding: -8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.statusBar.visible": false,
+  "window.titleBarStyle": "native",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+}
